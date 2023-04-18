@@ -1,0 +1,160 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #f0f0f0;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #be85ff;
+	padding-top: 30px;
+	padding-bottom: -10px;
+	/*
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	*/
+
+}
+form{
+	background-color: white;
+	margin: 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 50px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.radio-group label {
+	display: inline-block;
+	margin: 15px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	padding-top: 22%;
+	border-radius: 50%;
+	font-size: 15px;
+	cursor: pointer;
+	background-position: center;
+	background-size: cover;
+	opacity: .7;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.radio-group label:hover {
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+#happy{
+	background-image: url("https://img.freepik.com/premium-vector/nature-forest-landscape-background-illustration-happy-earth-day-with-lake-scenery_513217-143.jpg?w=2000");
+}
+#sad{
+	background-image: url("https://storage.prompt-hunt.workers.dev/clf1xixgv0001ma08karpivdp_1");
+}
+#anxious{
+	background-image: url("https://www.sheknows.com/wp-content/uploads/2019/10/eco-anxiety-managing-fires-california.png?w=1024");
+}
+#angry{
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/215/134/small/Bull.png");
+}
+#depressed{
+	background-image: url("https://media.istockphoto.com/id/1217567057/vector/old-abandoned-house-hallway-at-daytime.jpg?s=612x612&w=0&k=20&c=P79gPSj42EAfBMCFtedGbGgXlj1rxY3DnkdwrJ61Y-Y=");
+}
+#emotional{
+	background-image: url("https://media.istockphoto.com/id/1169259718/vector/beautiful-rainbow-sky-with-green-meadow-mountain-nature-landscape-illustration.jpg?s=612x612&w=0&k=20&c=XBTSys390AJ4udAeyvfCnbxBtQ2itIzAlkjWQUYhLWA=");
+}
+#neutral{
+	background-image: url("https://img.myloview.com/stickers/abstract-pastel-memphis-patterned-background-vector-400-269052638.jpg");
+}
+#sickly{
+	background-image: url("https://media.istockphoto.com/id/1212623820/vector/young-female-sick-character-resting-in-bed-bedroom-interior-quarantine-medical-treatment.jpg?s=612x612&w=0&k=20&c=SDQC9ffRQQjKFsijHyFfqSXXozTLz2CyTCcuwbYbYRc=");
+}
+#tired{
+	background-image: url("https://media.istockphoto.com/id/1217227689/vector/burnout-vector-illustration-low-energy-fatigue-mother-tiny-persons-concept.jpg?s=612x612&w=0&k=20&c=jKQhZv-RMlMrr3E6bzC4y7-UUSjOCPUzWJQ2SOLb0zo=");
+}
+input[type="radio"]:checked + label {
+	filter: grayscale(0%);
+	opacity: 1s;
+}
+
+select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 1em;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background-color: #5cb85c;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#graph {
+	margin-top: 50px;
+	height: 300px;
+}
+
+#suggestions {
+	margin-top: 50px;
+}

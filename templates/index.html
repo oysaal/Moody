@@ -3,45 +3,50 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mood Tracker</title>
-	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
 	<div class="container">
-		<h1>Mood Tracker</h1>
+		<h1>MoodHues</h1>
 		<form>
 			<fieldset>
 				<legend>How are you feeling today?</legend>
 				<div class="radio-group">
 					<input type="radio" id="happy" name="mood" value="happy">
-					<label for="happy">Happy</label>
+					<label id="happy" for="happy">Happy</label>
 
 					<input type="radio" id="sad" name="mood" value="sad">
-					<label for="sad">Sad</label>
+					<label id="sad" for="sad">Sad</label>
 
 					<input type="radio" id="neutral" name="mood" value="neutral">
-					<label for="neutral">Neutral</label>
+					<label id="neutral" for="neutral">Neutral</label>
 
 					<input type="radio" id="anxious" name="mood" value="anxious">
-					<label for="anxious">Anxious</label>
+					<label id="anxious" for="anxious">Anxious</label>
 
 					<input type="radio" id="angry" name="mood" value="angry">
-					<label for="angry">Angry</label>
+					<label id="angry" for="angry">Angry</label>
 
 					<input type="radio" id="tired" name="mood" value="tired">
-					<label for="tired">Tired</label>
+					<label id="tired" for="tired">Tired</label>
 
 					<input type="radio" id="depressed" name="mood" value="depressed">
-					<label for="depressed">Depressed</label>
+					<label id="depressed" for="depressed">Depressed</label>
 
 					<input type="radio" id="emotional" name="mood" value="emotional">
-					<label for="emotional">Emotional</label>
+					<label id="emotional" for="emotional">Emotional</label>
 
 					<input type="radio" id="sickly" name="mood" value="sickly">
-					<label for="sickly">Sickly</label>
+					<label id="sickly" for="sickly">Sickly</label>
 				</div>
-
+				<br><br>
 				<div class="form-group">
 					<label for="stress">Stress level:</label>
 					<select id="stress" name="stress">
@@ -86,7 +91,7 @@
 			<!-- Personalized suggestions will be displayed here -->
 		</div>
 	</div>
-	<script src="/Moody.js"></script>
+	<script src="/static/script.js"></script>
 </body>
 
 </html>

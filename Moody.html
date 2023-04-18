@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mood Tracker</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Mood Tracker</h1>
+		<form>
+			<fieldset>
+				<legend>How are you feeling today?</legend>
+				<div class="radio-group">
+					<input type="radio" id="happy" name="mood" value="happy">
+					<label for="happy">Happy</label>
+
+					<input type="radio" id="sad" name="mood" value="sad">
+					<label for="sad">Sad</label>
+
+					<input type="radio" id="neutral" name="mood" value="neutral">
+					<label for="neutral">Neutral</label>
+
+					<input type="radio" id="anxious" name="mood" value="anxious">
+					<label for="anxious">Anxious</label>
+
+					<input type="radio" id="angry" name="mood" value="angry">
+					<label for="angry">Angry</label>
+
+					<input type="radio" id="tired" name="mood" value="tired">
+					<label for="tired">Tired</label>
+
+					<input type="radio" id="depressed" name="mood" value="depressed">
+					<label for="depressed">Depressed</label>
+
+					<input type="radio" id="emotional" name="mood" value="emotional">
+					<label for="emotional">Emotional</label>
+
+					<input type="radio" id="sickly" name="mood" value="sickly">
+					<label for="sickly">Sickly</label>
+				</div>
+
+				<div class="form-group">
+					<label for="stress">Stress level:</label>
+					<select id="stress" name="stress">
+						<option value="low">Low</option>
+						<option value="medium">Medium</option>
+						<option value="high">High</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="exercise">Did you exercise today?</label>
+					<select id="exercise" name="exercise">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="diet">How healthy was your diet today?</label>
+					<select id="diet" name="diet">
+						<option value="poor">Poor</option>
+						<option value="fair">Fair</option>
+						<option value="good">Good</option>
+						<option value="excellent">Excellent</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="note">Additional notes:</label>
+					<textarea id="note" name="note" placeholder="Optional"></textarea>
+				</div>
+
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+
+		<div id="graph">
+			<!-- Mood graph will be displayed here -->
+		</div>
+
+		<div id="suggestions">
+			<!-- Personalized suggestions will be displayed here -->
+		</div>
+	
